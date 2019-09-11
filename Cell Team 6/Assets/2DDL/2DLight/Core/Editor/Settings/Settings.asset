@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15,6 +16,6 @@ MonoBehaviour:
   dateReleased: 17/08/2019
   layerMask:
     serializedVersion: 2
-    m_Bits: 1
-  layerCaster: 0
+    m_Bits: 512
+  layerCaster: 9
   LayerCreationHasBeenPerformed: 0
