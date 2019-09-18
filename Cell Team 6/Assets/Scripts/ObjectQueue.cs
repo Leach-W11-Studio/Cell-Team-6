@@ -58,9 +58,11 @@ public class ObjectQueue : MonoBehaviour
 
         GameObject toSpawn = objectPools[tag].Dequeue();
 
-        toSpawn.SetActive(true);
         toSpawn.transform.position = position;
         toSpawn.transform.rotation = rotation;
+        toSpawn.SetActive(true);
+
+        toSpawn.GetComponent<SimpleBullet>().Shoot();
 
         objectPools[tag].Enqueue(toSpawn);
         return toSpawn;

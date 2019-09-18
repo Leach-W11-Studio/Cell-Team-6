@@ -13,8 +13,8 @@ public class SimpleBullet : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void OnEnable()
-    {
+    public void Shoot() {
+        rb.velocity = Vector2.zero;
         rb.AddForce(transform.right * power);
     }
 
